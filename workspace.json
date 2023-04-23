@@ -1,0 +1,687 @@
+{
+  "id" : 1,
+  "name" : "Datamine Group",
+  "description" : "Datamine Research System's Software Achitecture",
+  "lastModifiedDate" : "2023-04-23T13:53:48Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJEYXRhbWluZSBHcm91cCIgIkRhdGFtaW5lIFJlc2VhcmNoIFN5c3RlbSdzIFNvZnR3YXJlIEFjaGl0ZWN0dXJlIiB7CgogIG1vZGVsIHsKCiAgICBwdWJsaWMgPSBwZXJzb24gIkdlbmVyYWwgVXNlciIgIlZpZXdzIHB1Ymxpc2hlZCByZXBvcnRzIiAiUGVyc29uIgogICAgcmVzZWFyY2hlciA9IHBlcnNvbiAiUmVzZWFyY2hlciIgIkNyZWF0ZXMgYW5kIHB1Ymxpc2hlcyByZXBvcnRzIgogICAgc2Nob29sX3N5c19hZG1pbiA9IHBlcnNvbiAiU2Nob29sIFN5cyBBZG1pbiIgIk1hbmFnZXMgc2Nob29sIGRhdGEiCgogICAgZ3JvdXAgIkRhdGFtaW5lIFN5c3RlbSBPdmVydmlldyIgewogICAgICBkbV9yZXNlYXJjaF9zeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiRGF0YW1pbmUgUmVzZWFyY2ggU3lzdGVtIiAiUGxhdGZvcm0gdG8gdmlldyAmIGFuYWx5c2UgU0RHIEdvYWwgNCBkYXRhIiB7CiAgICAgICAgIWRvY3MgZG9jcwogICAgICAgIHNpbmdsZV9wYWdlX2FwcCA9IGNvbnRhaW5lciAiU2luZ2xlLVBhZ2UgQXBwbGljYXRpb24iICJEaXNwbGF5IGFuZCByZWNpZXZlIGNvbnRlbnQgdG8gdXNlcnMiICJUeXBlc2NyaXB0KFJlYWN0SlMpIiAiV2ViIEJyb3dzZXIiIHsKICAgICAgICAgIHNpZ25pbiA9IGNvbXBvbmVudCAiU2lnbi1JbiBDb250cm9sbGVyIiAiQWxsb3dzIHVzZXJzIHRvIHNpZ24taW4vb3V0IHRvIERhdGFtaW5lIiAiUmVhY3QoVEJEKSIKICAgICAgICAgIGF1dGhvcml6ZXIgPSBjb21wb25lbnQgIkF1dGhvcml6YXRpb24gQ29udHJvbGxlciIgIk1hbmFnZXMgcGVybWlzc2lvbiByaWdodHMgdG8gdXNlcnMiCiAgICAgICAgICBkYXNoYm9hcmQgPSBjb21wb25lbnQgIkRhc2hib2FyZCBWaWV3IiAiRGlzcGxheSBwdWJsaXNoZWQgcmVwb3J0cyIgIlJlYWN0KFRCRCkiCiAgICAgICAgICBhbmFseXNpc190b29sID0gY29tcG9uZW50ICJBbmFseXNpcyB0b29sIiAiQWxsb3cgcmVzZWFyY2hlcnMgdG8gZG8gZGF0YSBhbmFseXNpcyIgIlJlYWN0KHJlYWN0LWp1cHl0ZXItbm90ZWJvb2spIgogICAgICAgICAgZGF0YV9tYW5hZ2VtZW50ID0gY29tcG9uZW50ICJEYXRhIE1hbmFnZW1lbnQgVmlldyIgIkFsbG93cyBzY2hvb2xzJyBzeXMgYWRtaW5zIHRvIG1hbmFnZSBzY2hvb2wgZGF0YSIgIlJlYWN0KFRCRCkiCiAgICAgICAgfQogICAgICAgIGJhY2tlbmQgPSBjb250YWluZXIgIkJhY2tlbmQgQXBwbGljYXRpb24iICJEZWxpdmVycyBzdGF0aWMgY29udGVudCBhbmQgc2luZ2xlLXBhZ2UgYXBwcyIgIlB5dGhvbihEamFuZ28pIiB7CiAgICAgICAgICBhcGlfYXBwID0gY29tcG9uZW50ICJBUEkgR2F0ZXdheSIgIk1hbmFnZXMgQVBJIHJlcXVlc3RzICYgcmVzcG9uc2VzIiAiRGphbmdvIFJFU1QgRnJhbWV3b3JrIgogICAgICAgIH0KICAgICAgICBkYXRhYmFzZSA9IGNvbnRhaW5lciAiRGF0YWJhc2UiICJEaXN0cmlidXRlZCBkYXRhYmFzZSBmb3Igc3RvcmluZyBkYXRhIGZyb20gc2Nob29scyIgIkNpdHVzKFBvc3RncmVTUUwpIiAiRGF0YWJhc2UiCiAgICAgIH0KCiAgICAgICMgIEV4dGVybmFsIFN5c3RlbXMKICAgICAgc2Nob29sX3N5c3RlbSA9IHNvZnR3YXJlU3lzdGVtICJTY2hvb2wgU3lzdGVtIiAiU2VuZHMgcmVsZXZhbnQgc2Nob29sIGRhdGEgdG8gRERCIiAiRXhpc3RpbmcgU3lzdGVtIgogICAgICBhY2NvdW50c19zeXN0ZW0gPSBzb2Z0d2FyZVN5c3RlbSAiQWNjb3VudHMgTWFuYWdlciBTeXN0ZW0iICJBdXRoZW50aWNhdGVzIHVzZXJzIHZpYSBHb29nbGUsIEZhY2Vib29rICYgTWljcm9zb2Z0IiAiRXhpc3RpbmcgU3lzdGVtIgogICAgfQoKICAgICMgUmVsYXRpb25zaGlwcyBiZXR3ZWVuIHBlb3BsZSAmIFNvZnR3YXJlIFN5c3RlbXMKICAgIHB1YmxpYyAtPiBzaW5nbGVfcGFnZV9hcHAgInZpc2l0cyBkYXRhbWluZS5jb20gdXNpbmcgW0hUVFBTXSIKICAgIHJlc2VhcmNoZXIgLT4gc2luZ2xlX3BhZ2VfYXBwICJ2aXNpdHMgZGF0YW1pbmUuY29tIHVzaW5nIFtIVFRQU10iCiAgICBzY2hvb2xfc3lzX2FkbWluIC0+IHNpbmdsZV9wYWdlX2FwcCAidmlzaXRzIGRhdGFtaW5lLmNvbSB1c2luZyBbSFRUUFNdIgogICAgc2luZ2xlX3BhZ2VfYXBwIC0+IGFjY291bnRzX3N5c3RlbSAidmVyaWZpZXMgYXV0aGVudGljYXRpb24gd2l0aCIKICAgIGFwaV9hcHAgLT4gc2Nob29sX3N5c3RlbSAibWFrZXMgQVBJIGNhbGxzIHRvIFtKU09OL0hUVFBTXSIKCiAgICAjIFJlbGF0aW9uc2hpcHMgdG8vZnJvbSBDb250YWluZXJzCiAgICBzaW5nbGVfcGFnZV9hcHAgLT4gYXBpX2FwcCAibWFrZSBBUEkgcmVxdWVzdHMgdG8iCiAgICBhdXRob3JpemVyIC0+IGFwaV9hcHAgIm1ha2VzIEFQSSBjYWxscyB0byBbSlNPTi9IVFRQU10iCiAgICBhcGlfYXBwIC0+IGFjY291bnRzX3N5c3RlbSAic2Vla3MgYXV0aGVudGljYXRpb24gZnJvbSIKICAgIGJhY2tlbmQgLT4gZGF0YWJhc2UgIlJlYWRzIGZyb20gYW5kIHdyaXRlcyB0byIKICAgIGRhdGFiYXNlIC0+IGFuYWx5c2lzX3Rvb2wgInNlbmRzIGRhdGEgdG8iCiAgICBkYXRhYmFzZSAtPiBkYXNoYm9hcmQgInNlbmRzIGRhdGEgdG8iCiAgICBhcGlfYXBwIC0+IGRhc2hib2FyZCAic2VuZHMgZGF0YSB0byBbSlNPTi9IVFRQU10iCiAgICBkYXRhX21hbmFnZW1lbnQgLT4gYmFja2VuZCAicmVxdWVzdHMgZGF0YSBmcm9tIgogIH0KCiAgdmlld3MgewogICAgc3lzdGVtbGFuZHNjYXBlICJTeXN0ZW1MYW5kc2NhcGUiIHsKICAgICAgaW5jbHVkZSAqCiAgICAgIGF1dG9MYXlvdXQKICAgIH0KICAgIHN5c3RlbUNvbnRleHQgZG1fcmVzZWFyY2hfc3lzdGVtICJTeXN0ZW1Db250ZXh0IiB7CiAgICAgIGluY2x1ZGUgKgogICAgICBhdXRvTGF5b3V0CiAgICAgIGRlc2NyaXB0aW9uICJHZW5lcmFsIG92ZXJ2aWV3IG9mIHRoZSBEYXRhbWluZSBSZXNlYXJjaCBTeXN0ZW0iCiAgICB9CgogICAgY29udGFpbmVyIGRtX3Jlc2VhcmNoX3N5c3RlbSAiQ29udGFpbmVycyIgewogICAgICBpbmNsdWRlICoKICAgICAgYXV0b0xheW91dAogICAgfQoKICAgIGNvbXBvbmVudCBzaW5nbGVfcGFnZV9hcHAgIkNvbXBvbmVudHMiIHsKICAgICAgaW5jbHVkZSAqCiAgICAgIGF1dG9MYXlvdXQgbHIKICAgIH0KCiAgICBzdHlsZXMgewogICAgICBlbGVtZW50ICJQZXJzb24iIHsKICAgICAgICBiYWNrZ3JvdW5kICMwODQyN2IKICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgICAgZm9udFNpemUgMjIKICAgICAgICBzaGFwZSBQZXJzb24KICAgICAgfQogICAgICBlbGVtZW50ICJTb2Z0d2FyZSBTeXN0ZW0iIHsKICAgICAgICBiYWNrZ3JvdW5kICMxMTY4YmQKICAgICAgICBjb2xvciAjZmZmZmZmCiAgICAgIH0KICAgICAgZWxlbWVudCAiRXhpc3RpbmcgU3lzdGVtIiB7CiAgICAgICAgYmFja2dyb3VuZCAjOTk5OTk5CiAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICB9CiAgICAgIGVsZW1lbnQgIkNvbnRhaW5lciIgewogICAgICAgIGJhY2tncm91bmQgIzQzOGRkNQogICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgfQogICAgICBlbGVtZW50ICJXZWIgQnJvd3NlciIgewogICAgICAgIHNoYXBlIFdlYkJyb3dzZXIKICAgICAgfQogICAgICBlbGVtZW50ICJEYXRhYmFzZSIgewogICAgICAgIHNoYXBlIEN5bGluZGVyCiAgICAgIH0KICAgICAgZWxlbWVudCAiQ29tcG9uZW50IiB7CiAgICAgICAgYmFja2dyb3VuZCAjODViYmYwCiAgICAgICAgY29sb3IgIzAwMDAwMAogICAgICB9CiAgICB9CiAgfQoKfQo="
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "1",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "public"
+      },
+      "name" : "General User",
+      "description" : "Views published reports",
+      "relationships" : [ {
+        "id" : "16",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "visits datamine.com using [HTTPS]"
+      }, {
+        "id" : "17",
+        "sourceId" : "1",
+        "destinationId" : "4",
+        "description" : "visits datamine.com using [HTTPS]",
+        "linkedRelationshipId" : "16"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "3",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "school_sys_admin"
+      },
+      "name" : "School Sys Admin",
+      "description" : "Manages school data",
+      "relationships" : [ {
+        "id" : "20",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "5",
+        "description" : "visits datamine.com using [HTTPS]"
+      }, {
+        "id" : "21",
+        "sourceId" : "3",
+        "destinationId" : "4",
+        "description" : "visits datamine.com using [HTTPS]",
+        "linkedRelationshipId" : "20"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "researcher"
+      },
+      "name" : "Researcher",
+      "description" : "Creates and publishes reports",
+      "relationships" : [ {
+        "id" : "19",
+        "sourceId" : "2",
+        "destinationId" : "4",
+        "description" : "visits datamine.com using [HTTPS]",
+        "linkedRelationshipId" : "18"
+      }, {
+        "id" : "18",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "5",
+        "description" : "visits datamine.com using [HTTPS]"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "15",
+      "tags" : "Element,Software System,Existing System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "accounts_system"
+      },
+      "name" : "Accounts Manager System",
+      "description" : "Authenticates users via Google, Facebook & Microsoft",
+      "group" : "Datamine System Overview",
+      "location" : "Unspecified",
+      "documentation" : { }
+    }, {
+      "id" : "4",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "dm_research_system"
+      },
+      "name" : "Datamine Research System",
+      "description" : "Platform to view & analyse SDG Goal 4 data",
+      "relationships" : [ {
+        "id" : "23",
+        "sourceId" : "4",
+        "destinationId" : "15",
+        "description" : "verifies authentication with",
+        "linkedRelationshipId" : "22"
+      }, {
+        "id" : "26",
+        "sourceId" : "4",
+        "destinationId" : "14",
+        "description" : "makes API calls to [JSON/HTTPS]",
+        "linkedRelationshipId" : "24"
+      } ],
+      "group" : "Datamine System Overview",
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "13",
+        "tags" : "Element,Container,Database",
+        "properties" : {
+          "structurizr.dsl.identifier" : "database"
+        },
+        "name" : "Database",
+        "description" : "Distributed database for storing data from schools",
+        "relationships" : [ {
+          "id" : "34",
+          "tags" : "Relationship",
+          "sourceId" : "13",
+          "destinationId" : "9",
+          "description" : "sends data to"
+        }, {
+          "id" : "36",
+          "tags" : "Relationship",
+          "sourceId" : "13",
+          "destinationId" : "8",
+          "description" : "sends data to"
+        }, {
+          "id" : "35",
+          "sourceId" : "13",
+          "destinationId" : "5",
+          "description" : "sends data to",
+          "linkedRelationshipId" : "34"
+        } ],
+        "technology" : "Citus(PostgreSQL)",
+        "documentation" : { }
+      }, {
+        "id" : "5",
+        "tags" : "Element,Container,Web Browser",
+        "properties" : {
+          "structurizr.dsl.identifier" : "single_page_app"
+        },
+        "name" : "Single-Page Application",
+        "description" : "Display and recieve content to users",
+        "relationships" : [ {
+          "id" : "28",
+          "sourceId" : "5",
+          "destinationId" : "11",
+          "description" : "make API requests to",
+          "linkedRelationshipId" : "27"
+        }, {
+          "id" : "27",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "12",
+          "description" : "make API requests to"
+        }, {
+          "id" : "22",
+          "tags" : "Relationship",
+          "sourceId" : "5",
+          "destinationId" : "15",
+          "description" : "verifies authentication with"
+        } ],
+        "technology" : "Typescript(ReactJS)",
+        "components" : [ {
+          "id" : "9",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "analysis_tool"
+          },
+          "name" : "Analysis tool",
+          "description" : "Allow researchers to do data analysis",
+          "technology" : "React(react-jupyter-notebook)",
+          "documentation" : { }
+        }, {
+          "id" : "10",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "data_management"
+          },
+          "name" : "Data Management View",
+          "description" : "Allows schools' sys admins to manage school data",
+          "relationships" : [ {
+            "id" : "41",
+            "tags" : "Relationship",
+            "sourceId" : "10",
+            "destinationId" : "11",
+            "description" : "requests data from"
+          } ],
+          "technology" : "React(TBD)",
+          "documentation" : { }
+        }, {
+          "id" : "6",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "signin"
+          },
+          "name" : "Sign-In Controller",
+          "description" : "Allows users to sign-in/out to Datamine",
+          "technology" : "React(TBD)",
+          "documentation" : { }
+        }, {
+          "id" : "8",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "dashboard"
+          },
+          "name" : "Dashboard View",
+          "description" : "Display published reports",
+          "technology" : "React(TBD)",
+          "documentation" : { }
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "authorizer"
+          },
+          "name" : "Authorization Controller",
+          "description" : "Manages permission rights to users",
+          "relationships" : [ {
+            "id" : "30",
+            "sourceId" : "7",
+            "destinationId" : "11",
+            "description" : "makes API calls to [JSON/HTTPS]",
+            "linkedRelationshipId" : "29"
+          }, {
+            "id" : "29",
+            "tags" : "Relationship",
+            "sourceId" : "7",
+            "destinationId" : "12",
+            "description" : "makes API calls to [JSON/HTTPS]"
+          } ],
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "11",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "backend"
+        },
+        "name" : "Backend Application",
+        "description" : "Delivers static content and single-page apps",
+        "relationships" : [ {
+          "id" : "33",
+          "tags" : "Relationship",
+          "sourceId" : "11",
+          "destinationId" : "13",
+          "description" : "Reads from and writes to"
+        }, {
+          "id" : "32",
+          "sourceId" : "11",
+          "destinationId" : "15",
+          "description" : "seeks authentication from",
+          "linkedRelationshipId" : "31"
+        }, {
+          "id" : "25",
+          "sourceId" : "11",
+          "destinationId" : "14",
+          "description" : "makes API calls to [JSON/HTTPS]",
+          "linkedRelationshipId" : "24"
+        }, {
+          "id" : "39",
+          "sourceId" : "11",
+          "destinationId" : "8",
+          "description" : "sends data to [JSON/HTTPS]",
+          "linkedRelationshipId" : "37"
+        }, {
+          "id" : "40",
+          "sourceId" : "11",
+          "destinationId" : "5",
+          "description" : "sends data to [JSON/HTTPS]",
+          "linkedRelationshipId" : "37"
+        } ],
+        "technology" : "Python(Django)",
+        "components" : [ {
+          "id" : "12",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "api_app"
+          },
+          "name" : "API Gateway",
+          "description" : "Manages API requests & responses",
+          "relationships" : [ {
+            "id" : "37",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "8",
+            "description" : "sends data to [JSON/HTTPS]"
+          }, {
+            "id" : "24",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "14",
+            "description" : "makes API calls to [JSON/HTTPS]"
+          }, {
+            "id" : "31",
+            "tags" : "Relationship",
+            "sourceId" : "12",
+            "destinationId" : "15",
+            "description" : "seeks authentication from"
+          }, {
+            "id" : "38",
+            "sourceId" : "12",
+            "destinationId" : "5",
+            "description" : "sends data to [JSON/HTTPS]",
+            "linkedRelationshipId" : "37"
+          } ],
+          "technology" : "Django REST Framework",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : {
+        "sections" : [ {
+          "content" : "\n\n![](embed:SystemContext)",
+          "format" : "Markdown",
+          "filename" : "01-context.md",
+          "order" : 1,
+          "title" : ""
+        } ]
+      }
+    }, {
+      "id" : "14",
+      "tags" : "Element,Software System,Existing System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "school_system"
+      },
+      "name" : "School System",
+      "description" : "Sends relevant school data to DDB",
+      "group" : "Datamine System Overview",
+      "location" : "Unspecified",
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : { },
+  "views" : {
+    "systemLandscapeViews" : [ {
+      "key" : "SystemLandscape",
+      "order" : 1,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2216,
+        "height" : 2120
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "2",
+        "x" : 908,
+        "y" : 208
+      }, {
+        "id" : "14",
+        "x" : 508,
+        "y" : 1508
+      }, {
+        "id" : "3",
+        "x" : 1608,
+        "y" : 208
+      }, {
+        "id" : "4",
+        "x" : 883,
+        "y" : 908
+      }, {
+        "id" : "15",
+        "x" : 1258,
+        "y" : 1508
+      } ],
+      "relationships" : [ {
+        "id" : "17"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "systemContextViews" : [ {
+      "key" : "SystemContext",
+      "order" : 2,
+      "description" : "General overview of the Datamine Research System",
+      "softwareSystemId" : "4",
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2216,
+        "height" : 2120
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "2",
+        "x" : 908,
+        "y" : 208
+      }, {
+        "id" : "3",
+        "x" : 1608,
+        "y" : 208
+      }, {
+        "id" : "14",
+        "x" : 508,
+        "y" : 1508
+      }, {
+        "id" : "4",
+        "x" : 883,
+        "y" : 908
+      }, {
+        "id" : "15",
+        "x" : 1258,
+        "y" : 1508
+      } ],
+      "relationships" : [ {
+        "id" : "17"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "23"
+      }, {
+        "id" : "21"
+      }, {
+        "id" : "19"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Containers",
+      "order" : 3,
+      "softwareSystemId" : "4",
+      "paperSize" : "A3_Landscape",
+      "dimensions" : {
+        "width" : 4175,
+        "height" : 2754
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 1217,
+        "y" : 329
+      }, {
+        "id" : "1",
+        "x" : 208,
+        "y" : 929
+      }, {
+        "id" : "2",
+        "x" : 2717,
+        "y" : 929
+      }, {
+        "id" : "13",
+        "x" : 908,
+        "y" : 979
+      }, {
+        "id" : "3",
+        "x" : 3417,
+        "y" : 929
+      }, {
+        "id" : "14",
+        "x" : 1967,
+        "y" : 979
+      }, {
+        "id" : "15",
+        "x" : 2629,
+        "y" : 2229
+      }, {
+        "id" : "5",
+        "x" : 1217,
+        "y" : 1629
+      } ],
+      "relationships" : [ {
+        "id" : "18",
+        "vertices" : [ {
+          "x" : 2567,
+          "y" : 1329
+        } ]
+      }, {
+        "id" : "28",
+        "vertices" : [ {
+          "x" : 1658,
+          "y" : 1329
+        }, {
+          "x" : 1658,
+          "y" : 929
+        } ]
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "40",
+        "vertices" : [ {
+          "x" : 1358,
+          "y" : 929
+        }, {
+          "x" : 1358,
+          "y" : 1329
+        } ]
+      }, {
+        "id" : "25"
+      }, {
+        "id" : "35"
+      }, {
+        "id" : "22"
+      }, {
+        "id" : "33"
+      }, {
+        "id" : "32",
+        "vertices" : [ {
+          "x" : 3967,
+          "y" : 929
+        }, {
+          "x" : 3967,
+          "y" : 1329
+        } ]
+      }, {
+        "id" : "20",
+        "vertices" : [ {
+          "x" : 3267,
+          "y" : 1329
+        } ]
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Components",
+      "order" : 4,
+      "dimensions" : {
+        "width" : 1860,
+        "height" : 3791
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "5",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 320,
+        "y" : 1400
+      }, {
+        "id" : "13",
+        "x" : 1070,
+        "y" : 200
+      }, {
+        "id" : "6",
+        "x" : 1070,
+        "y" : 1400
+      }, {
+        "id" : "7",
+        "x" : 1070,
+        "y" : 2000
+      }, {
+        "id" : "8",
+        "x" : 1070,
+        "y" : 2600
+      }, {
+        "id" : "9",
+        "x" : 1070,
+        "y" : 3200
+      }, {
+        "id" : "10",
+        "x" : 1070,
+        "y" : 800
+      } ],
+      "relationships" : [ {
+        "id" : "36",
+        "vertices" : [ {
+          "x" : 966,
+          "y" : 621
+        }, {
+          "x" : 868,
+          "y" : 771
+        }, {
+          "x" : 868,
+          "y" : 2300
+        }, {
+          "x" : 966,
+          "y" : 2450
+        } ]
+      }, {
+        "id" : "41"
+      }, {
+        "id" : "34",
+        "vertices" : [ {
+          "x" : 966,
+          "y" : 621
+        }, {
+          "x" : 868,
+          "y" : 771
+        }, {
+          "x" : 868,
+          "y" : 2900
+        }, {
+          "x" : 966,
+          "y" : 3050
+        } ]
+      }, {
+        "id" : "33",
+        "vertices" : [ {
+          "x" : 966,
+          "y" : 621
+        } ]
+      }, {
+        "id" : "30"
+      }, {
+        "id" : "39",
+        "vertices" : [ {
+          "x" : 966,
+          "y" : 2450
+        } ]
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Person",
+          "background" : "#08427b",
+          "color" : "#ffffff",
+          "fontSize" : 22,
+          "shape" : "Person"
+        }, {
+          "tag" : "Software System",
+          "background" : "#1168bd",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Existing System",
+          "background" : "#999999",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Container",
+          "background" : "#438dd5",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Web Browser",
+          "shape" : "WebBrowser"
+        }, {
+          "tag" : "Database",
+          "shape" : "Cylinder"
+        }, {
+          "tag" : "Component",
+          "background" : "#85bbf0",
+          "color" : "#000000"
+        } ]
+      },
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "Components"
+    }
+  }
+}
