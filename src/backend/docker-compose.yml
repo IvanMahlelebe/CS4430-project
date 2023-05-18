@@ -1,0 +1,82 @@
+version: '3'
+
+services:
+  dm-coordinator:
+    image: citusdata/citus:10.1
+    ports:
+      - "5431:5431"
+    environment:
+      POSTGRES_PASSWORD: datamine-password
+      POSTGRES_USER: dm-user
+      POSTGRES_DB: datamine_db
+      PGDATA: /pgdata
+      CITUS_NODES: dm-mohale, dm-leribe, dm-qacha, dm-maseru
+    volumes:
+      - ./coordinator:/pgdata
+    networks:
+      - datamine-network
+    restart: always
+
+  dm-mohale:
+    image: citusdata/citus:10.1
+    environment:
+      POSTGRES_PASSWORD: datamine-password
+      POSTGRES_USER: dm-user
+      POSTGRES_DB: datamine_db
+      PGDATA: /pgdata
+      CITUS_WORKER_NAME: dm-mohale
+      CITUS_MASTER_HOST: dm-coordinator
+    volumes:
+      - ./dm-mohale:/pgdata
+    networks:
+      - datamine-network
+    restart: always
+
+  dm-leribe:
+    image: citusdata/citus:10.1
+    environment:
+      POSTGRES_PASSWORD: datamine-password
+      POSTGRES_USER: dm-user
+      POSTGRES_DB: datamine_db
+      PGDATA: /pgdata
+      CITUS_WORKER_NAME: dm-leribe
+      CITUS_MASTER_HOST: dm-coordinator
+    volumes:
+      - ./dm-leribe:/pgdata
+    networks:
+      - datamine-network
+    restart: always
+
+  dm-qacha:
+    image: citusdata/citus:10.1
+    environment:
+      POSTGRES_PASSWORD: datamine-password
+      POSTGRES_USER: dm-user
+      POSTGRES_DB: datamine_db
+      PGDATA: /pgdata
+      CITUS_WORKER_NAME: dm-qacha
+      CITUS_MASTER_HOST: dm-coordinator
+    volumes:
+      - ./dm-qacha:/pgdata
+    networks:
+      - datamine-network
+    restart: always
+
+  dm-maseru:
+    image: citusdata/citus:10.1
+    environment:
+      POSTGRES_PASSWORD: datamine-password
+      POSTGRES_USER: dm-user
+      POSTGRES_DB: datamine_db
+      PGDATA: /pgdata
+      CITUS_WORKER_NAME: dm-maseru
+      CITUS_MASTER_HOST: dm-coordinator
+    volumes:
+      - ./dm-maseru:/pgdata
+    networks:
+      - datamine-network
+    restart: always
+
+networks:
+  datamine-network:
+    driver: bridge
