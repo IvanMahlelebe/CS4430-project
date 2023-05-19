@@ -28,7 +28,6 @@
 
 <div class="header-outer">
 <div class="header">
-<a id="mobile_btn" class="mobile_btn float-left" href="#sidebar"><i class="fas fa-bars" aria-hidden="true"></i></a>
 <a id="toggle_btn" class="float-left" href="javascript:void(0);">
 <img src="assets/img/sidebar/icon-21.png" height="40" width="40" alt="">
 </a>
@@ -113,7 +112,7 @@
 <li><a class="active" href="all-teachers.html"><span>All Teachers</span></a></li>
 <li><a href="add-teacher.html"><span>Add Teacher</span></a></li>
 <li><a href="edit-teacher.html"><span>Edit Teacher</span></a></li>
-<li><a href="about-student.html"><span>Search for Teacher</span></a></li>
+<li><a href="about-teacher.html"><span>Search for Teacher</span></a></li>
 
 </ul>
 </li>
@@ -127,16 +126,18 @@
 
 </ul>
 </li>
+
 <li class="submenu">
 <a href="#"><img src="assets/img/sidebar/icon-4.png" width = "30" height = "30" alt="icon"> <span> Schools</span> <span class="menu-arrow"></span></a>
 <ul class="list-unstyled" style="display: none;">
-<li><a href="all-parents.html"><span>All Schools</span></a></li>
-<li><a href="add-parent.html"><span>Add School</span></a></li>
-<li><a href="edit-parent.html"><span>Edit School</span></a></li>
-<li><a href="about-parent.html"><span>Search for school</span></a></li>
+<li><a href="all-schools.html"><span>All Schools</span></a></li>
+<li><a href="add-school.html"><span>Add School</span></a></li>
+<li><a href="edit-school.html"><span>Edit School</span></a></li>
+<li><a href="about-school.html"><span>Search for school</span></a></li>
 </ul>
 </li>
     </ul></div></div></div>
+
 
 
 <div class="page-wrapper">
@@ -144,13 +145,13 @@
 <div class="page-header">
 <div class="row">
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<h5 class="text-uppercase mb-0 mt-0 page-title">add School</h5>
+<h5 class="text-uppercase mb-0 mt-0 page-title">edit School</h5>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
 <ul class="breadcrumb float-right p-0 mb-0">
 <li class="breadcrumb-item"><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
 <li class="breadcrumb-item"><a href="index.html">Schools</a></li>
-<li class="breadcrumb-item"><span> Add School</span></li>
+<li class="breadcrumb-item"><span> Edit School</span></li>
 </ul>
 </div>
 </div>
@@ -164,29 +165,80 @@
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
 <form>
 <div class="form-group">
-<label>School ID</label>
-<input type="text" class="form-control">
+<label>Firstname</label>
+<input type="text" class="form-control" value="Jeffrey ">
 </div>
 <div class="form-group">
-<label>Location</label>
-<input type="text" class="form-control">
+<label>Email</label>
+<input type="text" class="form-control" value="Jyou@example.com">
 </div>
 <div class="form-group">
-<label>District</label>
+<label>Password</label>
 <input type="password" class="form-control">
 </div>
-
-
 <div class="form-group">
-<label>School name</label>
-<input type="text" class="form-control">
+<label>Occupation</label>
+<input type="text" class="form-control" value="Mathematical technician">
 </div>
-
 <div class="form-group">
-<label>district ID</label>
-<input type="text" class="form-control">
+<label>Gender</label>
+<select class="form-control select">
+<option>Male</option>
+<option>Female</option>
+</select>
 </div>
-
+<div class="form-group">
+<label>Birth Date</label>
+<input class="form-control datetimepicker-input datetimepicker" type="text" data-toggle="datetimepicker">
+</div>
+</form>
+</div>
+<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+<form>
+<div class="form-group">
+<label>Lastname</label>
+<input type="text" class="form-control" value="M. Wong">
+</div>
+<div class="form-group">
+<label>Mother Name</label>
+<input type="text" class="form-control" value="Richiy John">
+</div>
+<div class="form-group">
+<label>Comfirm Password</label>
+<input type="password" class="form-control">
+</div>
+<div class="form-group">
+<label>Mobile number</label>
+<input type="number" class="form-control" value="9735845870">
+</div>
+<div class="form-group">
+<label>Student Name</label>
+<input type="text" class="form-control" value="Parker">
+</div>
+<div class="form-group">
+<label>Class-Section</label>
+<input type="text" class="form-control" value="1-B">
+</div>
+</form>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+<form>
+<div class="form-group">
+<label>Address</label>
+<textarea class="form-control" placeholder="Address" rows="4"></textarea>
+</div>
+</form>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+<form>
+<div class="form-group">
+<label>Parents Image</label>
+<input type="file" name="pic" accept="image/*" class="form-control">
+</div>
+</form>
+</div>
+<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+<form>
 <div class="form-group text-center custom-mt-form-group">
 <button class="btn btn-primary mr-2" type="submit">Submit</button>
 <button class="btn btn-secondary" type="reset">Cancel</button>
@@ -252,7 +304,7 @@
 </div>
 </a>
 </li>
-<li>
+ <li>
 <a href="chat.html">
 <div class="list-item">
 <div class="list-left">
@@ -299,7 +351,7 @@
 </li>
 <li>
 <a href="chat.html">
- <div class="list-item">
+<div class="list-item">
 <div class="list-left">
 <span class="avatar">B</span>
 </div>
@@ -318,7 +370,7 @@
 <div class="list-left">
 <span class="avatar">R</span>
 </div>
-<div class="list-body">
+ <div class="list-body">
 <span class="message-author"> Rolland Webber </span>
 <span class="message-time">12:28 AM</span>
 <div class="clearfix"></div>
@@ -364,7 +416,7 @@
 <span class="avatar">J</span>
 </div>
 <div class="list-body">
- <span class="message-author">Jeffery Lalor</span>
+<span class="message-author">Jeffery Lalor</span>
 <span class="message-time">12:28 AM</span>
 <div class="clearfix"></div>
 <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
@@ -382,7 +434,7 @@
 <span class="message-author">Loren Gatlin</span>
 <span class="message-time">12:28 AM</span>
 <div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
+ <span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
 </div>
 </div>
 </a>
@@ -410,7 +462,6 @@
 </div>
 </div>
 </div>
-
 </div>
 
 <script src="assets/js/jquery-3.6.0.min.js"></script>
