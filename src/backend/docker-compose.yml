@@ -3,6 +3,7 @@ version: '3'
 services:
   dm-coordinator:
     image: citusdata/citus:10.1
+    container_name: dm-coordinator
     ports:
       - "5431:5431"
     environment:
@@ -19,6 +20,7 @@ services:
 
   dm-mohale:
     image: citusdata/citus:10.1
+    container_name: dm-mohale
     environment:
       POSTGRES_PASSWORD: datamine-password
       POSTGRES_USER: dm-user
@@ -34,6 +36,7 @@ services:
 
   dm-leribe:
     image: citusdata/citus:10.1
+    container_name: dm-leribe
     environment:
       POSTGRES_PASSWORD: datamine-password
       POSTGRES_USER: dm-user
@@ -49,6 +52,7 @@ services:
 
   dm-qacha:
     image: citusdata/citus:10.1
+    container_name: dm-qacha
     environment:
       POSTGRES_PASSWORD: datamine-password
       POSTGRES_USER: dm-user
@@ -64,6 +68,7 @@ services:
 
   dm-maseru:
     image: citusdata/citus:10.1
+    container_name: dm-maseru
     environment:
       POSTGRES_PASSWORD: datamine-password
       POSTGRES_USER: dm-user
