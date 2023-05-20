@@ -44,7 +44,6 @@ trap 'handle_error' ERR
 
 # Get the coordinator IP
 COORDINATOR_IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' dm-coordinator)
-
 psql -h "$COORDINATOR_IP" -p 5432 -U dm-user -d datamine_db << EOF
 START TRANSACTION;
 
