@@ -49,8 +49,7 @@ START TRANSACTION;
 
 CREATE TABLE region (
   regionID SERIAL PRIMARY KEY,
-  dName TEXT,
-  dRegion TEXT
+  rName TEXT,
 );
 
 

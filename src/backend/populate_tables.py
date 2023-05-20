@@ -4,16 +4,6 @@ from faker import Faker
 
 fake = Faker()
 
-# Generate random district data
-district_data = []
-for i in range(10):
-    district_data.append({
-        'dID': i+1,
-        'dName': fake.word(),
-        'dRegion': fake.word()
-    })
-district_df = pd.DataFrame(district_data)
-
 # Generate random school data
 school_data = []
 for i in range(20):
@@ -107,7 +97,6 @@ for i in range(100):
 student_demography_df = pd.DataFrame(student_demography_data)
 
 # Save dataframes to Excel files
-district_df.to_excel('district_data.xlsx', index=False)
 school_df.to_excel('school_data.xlsx', index=False)
 educator_df.to_excel('educator_data.xlsx', index=False)
 student_df.to_excel('student_data.xlsx', index=False)
