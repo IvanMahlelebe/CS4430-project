@@ -1,0 +1,101 @@
+demoID,regionID,studentID,gender,race,disability,socialStatus,economicStatus
+1,1,41673,Female,African American,None,Low,Middle
+2,1,54578,Female,Other,Physical,Low,Low
+3,1,69690,Female,Other,None,Middle,Middle
+4,2,36680,Female,Other,None,Middle,Middle
+5,2,65498,Female,Hispanic,None,High,Low
+6,4,33233,Male,Asian,None,Middle,Low
+7,2,16331,Male,African American,Sensory,High,Low
+8,2,48809,Male,Hispanic,None,Low,Low
+9,3,67844,Female,Other,None,Low,High
+10,2,93858,Male,Other,None,High,Low
+11,1,73952,Male,Caucasian,None,Low,Low
+12,3,85896,Female,Caucasian,None,Middle,High
+13,2,26188,Male,African American,None,Low,High
+14,1,64475,Female,Other,None,High,Middle
+15,1,68399,Male,Asian,None,Low,Low
+16,3,67794,Female,Caucasian,None,High,Low
+17,4,46509,Male,Caucasian,None,High,High
+18,2,95169,Male,Asian,Sensory,High,Low
+19,3,37036,Male,Hispanic,None,Low,Middle
+20,2,21784,Male,African American,None,Middle,High
+21,3,31656,Female,Asian,None,Middle,High
+22,2,103996,Female,Asian,None,Low,Low
+23,1,31451,Female,Caucasian,Sensory,Middle,Middle
+24,4,37526,Female,Asian,None,High,Middle
+25,2,26188,Female,Hispanic,None,High,Low
+26,1,9414,Female,Hispanic,Physical,Low,Middle
+27,1,90461,Male,Asian,None,Low,Middle
+28,2,87848,Female,Other,None,Low,Low
+29,1,44859,Male,Other,None,High,Middle
+30,1,54487,Female,Hispanic,None,High,Low
+31,1,74207,Male,Hispanic,None,Low,Low
+32,1,44530,Female,Hispanic,None,Middle,Low
+33,2,42191,Male,Caucasian,None,Low,Middle
+34,2,44533,Male,Asian,None,High,Low
+35,2,32230,Female,Caucasian,None,Middle,Middle
+36,4,28395,Female,Other,None,Middle,High
+37,2,51091,Male,Asian,None,Middle,High
+38,2,9150,Male,Caucasian,None,High,Middle
+39,3,52628,Male,Caucasian,Physical,High,Low
+40,3,7711,Female,Caucasian,None,High,Low
+41,2,11261,Female,Hispanic,None,High,Middle
+42,1,53638,Male,Caucasian,Physical,High,Low
+43,1,5261,Male,Other,None,Low,Middle
+44,2,78801,Male,Hispanic,Sensory,Low,Low
+45,1,53471,Female,Caucasian,None,High,Middle
+46,1,104343,Female,African American,None,High,Middle
+47,2,103404,Other,Other,None,Middle,Low
+48,2,9197,Female,African American,None,High,Middle
+49,2,65842,Male,Asian,Intellectual,High,Low
+50,4,40363,Male,Caucasian,None,High,Low
+51,1,59236,Female,African American,None,Middle,Middle
+52,1,89715,Female,Hispanic,None,High,Middle
+53,3,31011,Male,Asian,None,Middle,High
+54,2,97213,Male,African American,None,Middle,High
+55,1,62846,Male,Other,None,High,High
+56,3,8745,Female,Caucasian,None,Middle,High
+57,2,93194,Male,Caucasian,None,High,High
+58,2,87734,Female,Other,None,Middle,Middle
+59,1,102843,Female,Asian,None,Middle,Low
+60,2,87443,Female,African American,None,Middle,Low
+61,1,90043,Male,Asian,None,High,Low
+62,4,57099,Female,Other,None,High,Middle
+63,4,3431,Male,Other,None,Low,Middle
+64,4,64051,Male,Other,None,Middle,Middle
+65,4,12349,Male,Caucasian,None,Low,Middle
+66,2,20838,Female,Other,None,Low,Low
+67,2,97887,Female,Caucasian,None,Middle,Middle
+68,4,64570,Other,Asian,None,Middle,Low
+69,2,18014,Male,Other,None,High,Low
+70,3,52321,Male,African American,None,Middle,Low
+71,1,39568,Male,Other,None,Low,Low
+72,1,87329,Female,Asian,None,Middle,High
+73,2,34443,Male,Caucasian,Physical,High,Middle
+74,4,64625,Female,Asian,None,Low,Middle
+75,1,74993,Male,Hispanic,None,Low,High
+76,3,74195,Male,Hispanic,Sensory,Middle,High
+77,1,42252,Female,African American,None,High,Middle
+78,1,27500,Male,Caucasian,None,Low,High
+79,2,13724,Male,African American,None,Low,Middle
+80,4,98668,Female,African American,None,Low,Middle
+81,3,66504,Male,Asian,None,Middle,Low
+82,2,81277,Female,Hispanic,None,High,Low
+83,1,5815,Male,Asian,None,Low,Middle
+84,2,13509,Male,Other,None,High,High
+85,1,31201,Male,Caucasian,None,Low,Low
+86,2,62868,Female,Hispanic,None,Middle,Middle
+87,1,67185,Female,Hispanic,None,Middle,Middle
+88,2,90851,Female,African American,None,Middle,High
+89,1,29884,Male,Hispanic,None,Middle,Low
+90,1,100189,Male,African American,Physical,Middle,High
+91,3,74124,Male,Hispanic,None,Low,Low
+92,2,18805,Male,Asian,None,High,Low
+93,3,77454,Other,Caucasian,None,Middle,Middle
+94,1,22925,Female,Other,None,Middle,Low
+95,4,99971,Female,Caucasian,None,Low,Low
+96,4,43208,Female,Caucasian,None,Low,Middle
+97,2,20202,Female,Asian,None,Low,Middle
+98,2,75838,Male,Caucasian,Intellectual,Middle,Low
+99,2,62659,Female,Caucasian,None,Low,Low
+100,2,3996,Male,Other,None,High,Low

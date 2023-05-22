@@ -7,7 +7,7 @@ services:
     ports:
       - "5431:5431"
     environment:
-      POSTGRES_PASSWORD: datamine-password
+      POSTGRES_PASSWORD:
       POSTGRES_USER: dm-user
       POSTGRES_DB: datamine_db
       PGDATA: /pgdata
@@ -22,7 +22,7 @@ services:
     image: citusdata/citus:10.1
     container_name: dm-mohale
     environment:
-      POSTGRES_PASSWORD: datamine-password
+      POSTGRES_PASSWORD:
       POSTGRES_USER: dm-user
       POSTGRES_DB: datamine_db
       PGDATA: /pgdata
@@ -38,7 +38,7 @@ services:
     image: citusdata/citus:10.1
     container_name: dm-leribe
     environment:
-      POSTGRES_PASSWORD: datamine-password
+      POSTGRES_PASSWORD:
       POSTGRES_USER: dm-user
       POSTGRES_DB: datamine_db
       PGDATA: /pgdata
@@ -54,7 +54,7 @@ services:
     image: citusdata/citus:10.1
     container_name: dm-qacha
     environment:
-      POSTGRES_PASSWORD: datamine-password
+      POSTGRES_PASSWORD:
       POSTGRES_USER: dm-user
       POSTGRES_DB: datamine_db
       PGDATA: /pgdata
@@ -70,7 +70,7 @@ services:
     image: citusdata/citus:10.1
     container_name: dm-maseru
     environment:
-      POSTGRES_PASSWORD: datamine-password
+      POSTGRES_PASSWORD:
       POSTGRES_USER: dm-user
       POSTGRES_DB: datamine_db
       PGDATA: /pgdata
