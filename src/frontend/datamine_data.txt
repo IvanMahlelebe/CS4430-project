@@ -1,0 +1,29 @@
+// INSERTING INTO EDUCATOR
+INSERT INTO educator(int , text , text)
+VALUES ( 200, Thusang , south,  south);
+
+INSERT INTO educator(int , text , text)
+VALUES ( 300, Thabelo , Tutu, west );
+
+INSERT INTO student(int , text , text)
+VALUES ( 200, Thusang , south,  2008);
+INSERT INTO student(int , text , text)
+VALUES ( 200, THATO , south,  2008);
+INSERT INTO student(int , text , text)
+VALUES ( 200, Thusang , south,  2008);
+INSERT INTO student(int , text , text)
+VALUES ( 200, Thusang , south,  2008);
+
+
+// INSERT INTO  REGION
+
+INSERT INTO REGION( int , text)
+VALUES ( 200 , south);
+
+
+INSERT INTO REGION( int,  text)
+VALUES ( 300 , West);
+
+
+INSERT INTO STUDENT( INT , TEXT )
+

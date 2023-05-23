@@ -1,0 +1,27 @@
+// Retrieve the result-container element
+const resultContainer = document.getElementById('result-container');
+
+// Simulate fetching the query result
+const queryResult = [
+  { id: 1, name: 'John' },
+  { id: 2, name: 'Jane' },
+  { id: 3, name: 'Mike' }
+];
+
+// Create an HTML table to display the query result
+const table = document.createElement('table');
+
+// Create the table header
+const tableHeader = document.createElement('tr');
+tableHeader.innerHTML = '<th>ID</th><th>Name</th>';
+table.appendChild(tableHeader);
+
+// Populate the table with data
+queryResult.forEach((row) => {
+  const tableRow = document.createElement('tr');
+  tableRow.innerHTML = `<td>${row.id}</td><td>${row.name}</td>`;
+  table.appendChild(tableRow);
+});
+
+// Append the table to the result-container
+resultContainer.appendChild(table);

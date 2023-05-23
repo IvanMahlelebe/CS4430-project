@@ -5,7 +5,7 @@
 <title>Datamine High School Database</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
 
-<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="assets/img/logo1.png">
 
 <link href="../../../../css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
@@ -50,20 +50,7 @@
 </ul>
 
 <ul class="nav user-menu float-right">
-<li class="nav-item dropdown d-none d-sm-block">
-<a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-<img src="assets/img/sidebar/icon-22.png" alt="">
-</a>
-<div class="dropdown-menu notifications">
-<div class="topnav-dropdown-header">
-<span>Notifications</span>
-</div>
 
-<div class="topnav-dropdown-footer">
-<a href="activities.html">View all Notifications</a>
-</div>
-</div>
-</li>
 
 <li class="nav-item dropdown has-arrow">
 <a href="#" class=" nav-link user-link" data-toggle="dropdown">
@@ -109,7 +96,7 @@
 <li class="submenu">
 <a href="#"><img src="assets/img/sidebar/icon-2.png" alt="icon"> <span> Teachers</span> <span class="menu-arrow"></span></a>
 <ul class="list-unstyled" style="display: none;">
-<li><a class="active" href="all-teachers.html"><span>All Teachers</span></a></li>
+<li><a href="all-teachers.html"><span>All Teachers</span></a></li>
 <li><a href="add-teacher.html"><span>Add Teacher</span></a></li>
 <li><a href="edit-teacher.html"><span>Edit Teacher</span></a></li>
 <li><a href="about-teacher.html"><span>Search for Teacher</span></a></li>
@@ -155,8 +142,7 @@
 </ul>
 </div>
 </div>
-</div>
-<div class="page-content">
+</div><div class="page-content">
 <div class="row">
 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
 <div class="card">
@@ -165,21 +151,15 @@
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
 <form class="custom-mt-form">
 <div class="form-group">
+<label>student No</label>
+<input type="text" class="form-control">
+</div>
+<div class="form-group">
 <label>Firstname</label>
-<input type="text" class="form-control" value="Richard Miles">
+<input type="text" class="form-control">
 </div>
-<div class="form-group">
-<label>Email</label>
-<input type="text" class="form-control" value="you@example.com">
-</div>
-<div class="form-group">
-<label>Password</label>
-<input type="password" class="form-control">
-</div>
-<div class="form-group">
-<label>Subject</label>
-<input type="text" class="form-control" value="Maths">
-</div>
+
+
 <div class="form-group">
 <label>Gender</label>
 <select class="form-control select">
@@ -193,103 +173,62 @@
 </div>
 <div class="form-group">
 <label>Class</label>
-<input type="text" class="form-control" value="1">
+<input type="text" class="form-control">
 </div>
-<div class="form-group">
-<label>Religion</label>
-<input type="text" class="form-control" value="Hindu">
-</div>
+
+
 </form>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
 <form class="custom-mt-form">
 <div class="form-group">
 <label>Lastname</label>
-<input type="text" class="form-control" value="Miles">
+<input type="text" class="form-control">
 </div>
 <div class="form-group">
 <label>Joining Date</label>
 <input class="form-control datetimepicker-input datetimepicker" type="text" data-toggle="datetimepicker">
 </div>
 <div class="form-group">
-<label>Comfirm Password</label>
-<input type="password" class="form-control">
+<label>Nationality</label>
+<input type="text" class="form-control">
 </div>
 <div class="form-group">
-<label>Mobile number</label>
-<input type="number" value="9853467121" class="form-control">
-</div>
-<div class="form-group">
-<label>Admission No</label>
-<input type="text" class="form-control" value="1234">
-</div>
-<div class="form-group">
-<label>ID</label>
-<input type="text" class="form-control" value="FD-00d1">
-</div>
-<div class="form-group">
-<label>Section</label>
-<input type="text" class="form-control" value="A">
+<label>Disabilities</label>
+<input type="text" class="form-control">
 </div>
 </form>
 </div>
-<div class="page-title ml-3 mb-3 col-12">Parent information</div>
+<div class="mt-4">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+<div class="page-title ml-3">Parents/Guardian information</div>
+</div>
+</div>
+</div>
+<div class="card-body w-100 p-3">
+<div class="row">
 <div class="col-lg-6 col-md-6 col-sm-6 col-12">
 <form class="custom-mt-form">
 <div class="form-group">
-<label>Father Name</label>
-<input type="text" value="John" class="form-control">
+<label> Name</label>
+<input type="text" class="form-control">
 </div>
 <div class="form-group">
-<label>Father Occupation</label>
-<input type="text" value="Mathematical technician" class="form-control">
+<label> Occupation</label>
+<input type="text" class="form-control">
 </div>
 <div class="form-group">
 <label>Mobile number</label>
-<input type="number" value="9735845870" class="form-control">
+<input type="text" class="form-control">
 </div>
 <div class="form-group">
 <label>Present Address</label>
-<textarea class="form-control" placeholder="Present Address">4467 Sherman street,Kansas</textarea>
+<textarea class="form-control" rows="4"></textarea>
 </div>
 </form>
 </div>
-<div class="col-lg-6 col-md-6 col-sm-6 col-12">
-<form class="custom-mt-form">
-<div class="form-group">
-<label>Mother Name</label>
-<input type="text" value="Maries" class="form-control">
-</div>
-<div class="form-group">
-<label>Mother Occupation</label>
-<input type="text" value="Teacher" class="form-control">
-</div>
-<div class="form-group">
-<label>Nationality</label>
-<input type="text" value="Indian" class="form-control">
-</div>
-<div class="form-group">
-<label>Premanent Address</label>
-<textarea class="form-control" placeholder="Premanent Address">4467 Sherman street,Kansas</textarea>
-</div>
-</form>
-</div>
-</div>
-<div class="row">
-<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-<div class="form-group">
-<label>Student Image</label>
-<input type="file" name="pic" accept="image/*" class="form-control">
-</div>
-</div>
-<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-<form class="custom-mt-form">
-<div class="form-group">
-<label>Parents Image</label>
-<input type="file" name="pic" accept="image/*" class="form-control">
-</div>
-</form>
-</div>
+
 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
 <form class="custom-mt-form">
 <div class="form-group text-center custom-mt-form-group">
@@ -307,213 +246,6 @@
 </div>
 </div>
 
-<div class="notification-box">
-<div class="msg-sidebar notifications msg-noti">
-<div class="topnav-dropdown-header">
- <span>Messages</span>
-</div>
-<div class="drop-scroll msg-list-scroll">
-<ul class="list-box">
-<li>
-<a href="chat.html">
-<div class="list-item">
-<div class="list-left">
-<span class="avatar">R</span>
-</div>
-<div class="list-body">
-<span class="message-author">Richard Miles </span>
-<span class="message-time">12:28 AM</span>
-<div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-</div>
-</div>
-</a>
-</li>
-<li>
-<a href="chat.html">
-<div class="list-item new-message">
-<div class="list-left">
-<span class="avatar">J</span>
-</div>
-<div class="list-body">
-<span class="message-author">Ruth C. Gault</span>
-<span class="message-time">1 Aug</span>
-<div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-</div>
-</div>
-</a>
-</li>
-<li>
-<a href="chat.html">
-<div class="list-item">
-<div class="list-left">
-<span class="avatar">T</span>
-</div>
-<div class="list-body">
-<span class="message-author"> Tarah Shropshire </span>
-<span class="message-time">12:28 AM</span>
-<div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-</div>
-</div>
-</a>
-</li>
-<li>
-<a href="chat.html">
-<div class="list-item">
-<div class="list-left">
-<span class="avatar">M</span>
-</div>
-<div class="list-body">
-<span class="message-author">Mike Litorus</span>
-<span class="message-time">12:28 AM</span>
-<div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-</div>
-</div>
-</a>
-</li>
-<li>
-<a href="chat.html">
-<div class="list-item">
- <div class="list-left">
-<span class="avatar">C</span>
-</div>
-<div class="list-body">
-<span class="message-author"> Catherine Manseau </span>
-<span class="message-time">12:28 AM</span>
-<div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-</div>
-</div>
-</a>
-</li>
-<li>
-<a href="chat.html">
-<div class="list-item">
-<div class="list-left">
-<span class="avatar">D</span>
-</div>
-<div class="list-body">
-<span class="message-author"> Domenic Houston </span>
-<span class="message-time">12:28 AM</span>
-<div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-</div>
-</div>
-</a>
-</li>
-<li>
-<a href="chat.html">
-<div class="list-item">
-<div class="list-left">
-<span class="avatar">B</span>
-</div>
-<div class="list-body">
-<span class="message-author"> Buster Wigton </span>
-<span class="message-time">12:28 AM</span>
-<div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-</div>
-</div>
-</a>
-</li>
-<li>
-<a href="chat.html">
-<div class="list-item">
-<div class="list-left">
-<span class="avatar">R</span>
-</div>
-<div class="list-body">
-<span class="message-author"> Rolland Webber </span>
-<span class="message-time">12:28 AM</span>
-<div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-</div>
-</div>
-</a>
-</li>
-<li>
-<a href="chat.html">
-<div class="list-item">
-<div class="list-left">
-<span class="avatar">C</span>
-</div>
-<div class="list-body">
-<span class="message-author"> Claire Mapes </span>
-<span class="message-time">12:28 AM</span>
-<div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-</div>
-</div>
-</a>
-</li>
-<li>
-<a href="chat.html">
-<div class="list-item">
-<div class="list-left">
-<span class="avatar">M</span>
-</div>
-<div class="list-body">
-<span class="message-author">Melita Faucher</span>
-<span class="message-time">12:28 AM</span>
-<div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-</div>
-</div>
-</a>
-</li>
-<li>
-<a href="chat.html">
-<div class="list-item">
-<div class="list-left">
-<span class="avatar">J</span>
-</div>
-<div class="list-body">
-<span class="message-author">Jeffery Lalor</span>
-<span class="message-time">12:28 AM</span>
-<div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-</div>
-</div>
-</a>
-</li>
-<li>
-<a href="chat.html">
-<div class="list-item">
-<div class="list-left">
-<span class="avatar">L</span>
-</div>
-<div class="list-body">
-<span class="message-author">Loren Gatlin</span>
-<span class="message-time">12:28 AM</span>
-<div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
-</div>
-</div>
-</a>
-</li>
-<li>
-<a href="chat.html">
-<div class="list-item">
-<div class="list-left">
-<span class="avatar">T</span>
-</div>
-<div class="list-body">
-<span class="message-author">Tarah Shropshire</span>
-<span class="message-time">12:28 AM</span>
-<div class="clearfix"></div>
-<span class="message-content">Lorem ipsum dolor sit amet, consectetur adipiscing</span>
- </div>
-</div>
-</a>
-</li>
-</ul>
-</div>
-<div class="topnav-dropdown-footer">
-<a href="chat.html">See all messages</a>
-</div>
 </div>
 </div>
 </div>
